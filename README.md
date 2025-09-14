@@ -54,7 +54,7 @@ The plan is divided into **4-week modules** with projects at the end of each sta
 
 ## 📌 Author
 
-Documented and maintained by **Lamar** ✨
+Documented and maintained by [**Lamar**](https://github.com/lamarglass) 
 
 ---
 
