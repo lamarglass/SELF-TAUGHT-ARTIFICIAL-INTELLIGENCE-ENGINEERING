@@ -1,0 +1,102 @@
+# rules.yml
+# Editable rule set for the study-plan advisor.
+# Each rule: name, priority (higher -> evaluated first), conditions (AND), actions.
+
+rules:
+  - name: "low_progress_high_hours"
+    priority: 20
+    conditions:
+      - fact: "progress"
+        op: "lt"
+        value: 0.3
+      - fact: "daily_hours"
+        op: "ge"
+        value: 4
+    actions:
+      - type: "recommend"
+        value: "You have time and low progress: concentrate on Foundations (Python, Math) and hands-on coding."
+      - type: "set_fact"
+        fact: "focus"
+        value: "foundations"
+      - type: "call"
+        fn: "open_resource"
+        args: ["https://realpython.com/"]
+
+  - name: "mid_progress_low_hours"
+    priority: 18
+    conditions:
+      - fact: "progress"
+        op: "ge"
+        value: 0.3
+      - fact: "progress"
+        op: "lt"
+        value: 0.6
+      - fact: "daily_hours"
+        op: "lt"
+        value: 3
+    actions:
+      - type: "recommend"
+        value: "Do focused short sessions (e.g., 90-minute blocks) and prioritize project work."
+      - type: "set_fact"
+        fact: "focus"
+        value: "apply_ml"
+
+  - name: "ready_for_deep_with_gpu"
+    priority: 15
+    conditions:
+      - fact: "progress"
+        op: "ge"
+        value: 0.6
+      - fact: "has_gpu"
+        op: "eq"
+        value: true
+    actions:
+      - type: "recommend"
+        value: "You're ready to start Deep Learning modules (CNNs/RNNs/Transformers)."
+      - type: "set_fact"
+        fact: "focus"
+        value: "deep_learning"
+
+  - name: "ready_for_deep_no_gpu"
+    priority: 14
+    conditions:
+      - fact: "progress"
+        op: "ge"
+        value: 0.6
+      - fact: "has_gpu"
+        op: "eq"
+        value: false
+    actions:
+      - type: "recommend"
+        value: "Consider using cloud GPUs (Colab Pro, Kaggle, RunPod) for heavy DL training."
+      - type: "set_fact"
+        fact: "compute_mode"
+        value: "cloud"
+
+  - name: "possible_burnout"
+    priority: 12
+    conditions:
+      - fact: "stress_level"
+        op: "gt"
+        value: 7
+    actions:
+      - type: "recommend"
+        value: "High stress detected — take a buffer week, reduce daily hours, and review priorities."
+      - type: "add_note"
+        value: "Consider scheduling a 1-week recovery or focused review."
+
+  - name: "project_ready"
+    priority: 10
+    conditions:
+      - fact: "completed_projects"
+        op: "ge"
+        value: 2
+      - fact: "progress"
+        op: "ge"
+        value: 0.5
+    actions:
+      - type: "recommend"
+        value: "You're in a great spot to start a capstone or domain-specific project."
+      - type: "set_fact"
+        fact: "focus"
+        value: "capstone"
