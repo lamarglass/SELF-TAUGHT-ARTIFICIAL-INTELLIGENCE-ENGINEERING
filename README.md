@@ -9,13 +9,13 @@ The goal is to build **strong theoretical foundations**, **hands-on projects**, 
 
 ## 📚 Repository Structure
 
-- [Foundation (AI Science + Engineering Basics)](Foundation.md)  
-- [Machine Learning and Applied AI](Machine-Learning-And-Applied-AI.md)  
-- [Deep Learning (AI Science + Advanced AI Engineering)](Deep-Learning.md)  
-- [Advanced Topics and Capstone Project](Advanced-Topics-And-Capstone-Project.md)  
-- [Advanced Engineering and Deployment](Advanced-Engineering-And-Deployment.md)  
-- [Specialization and Real-World Applications](Specialization-And-Real-World-Applications.md)  
-- [Timetable and Resources](Timetable-And-Resources.md)  
+- [Foundation (AI Science + Engineering Basics)](https://github.com/lamarglass/SELF-TAUGHT-ARTIFICIAL-INTELLIGENCE-ENGINEERING/tree/main/Foundation%20(AI%20Science%20%2B%20Engineering%20Basics)/Python-Programming%3AFocus-on-AI)  
+- [Machine Learning and Applied AI](https://github.com/lamarglass/SELF-TAUGHT-ARTIFICIAL-INTELLIGENCE-ENGINEERING/tree/main/Machine%20Learning%20and%20Applied%20AI)  
+- [Deep Learning (AI Science + Advanced AI Engineering)](https://github.com/lamarglass/SELF-TAUGHT-ARTIFICIAL-INTELLIGENCE-ENGINEERING/tree/main/Deep%20Learning%20(AI%20Science%20%2B%20Advanced%20AI%20Engineering))  
+- [Advanced Topics and Capstone Project](https://github.com/lamarglass/SELF-TAUGHT-ARTIFICIAL-INTELLIGENCE-ENGINEERING/tree/main/Advanced%20Topics%20and%20Capstone%20Project)  
+- [Advanced Engineering and Deployment](https://github.com/lamarglass/SELF-TAUGHT-ARTIFICIAL-INTELLIGENCE-ENGINEERING/tree/main/Advanced%20Engineering%20and%20Deployment)  
+- [Specialization and Real-World Applications](https://github.com/lamarglass/SELF-TAUGHT-ARTIFICIAL-INTELLIGENCE-ENGINEERING/tree/main/Specialization%20and%20Real-World%20Applications)  
+- [Timetable and Resources](https://github.com/lamarglass/SELF-TAUGHT-ARTIFICIAL-INTELLIGENCE-ENGINEERING/tree/main/Timetable-And-Resources)  
 
 Each section contains:
 - **Overview** of topics
