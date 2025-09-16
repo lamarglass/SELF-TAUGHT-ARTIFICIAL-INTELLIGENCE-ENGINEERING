@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # Float = Means floating point numbers.
 #         It is a number but it containds a decimal potion.
 price = 10.99

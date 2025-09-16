@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # Boolean = A boolean is either true or false.
 
 print("Are you a student?")

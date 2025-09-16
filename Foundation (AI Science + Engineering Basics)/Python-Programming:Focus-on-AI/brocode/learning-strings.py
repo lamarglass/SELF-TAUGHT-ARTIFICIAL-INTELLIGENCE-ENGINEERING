@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # Strings = Is a series of characters, they can include numbers but we treat them as characters.
 # strings use double quotes: "" .
 # Whole Numbers in double quotes are views as integers "7". 
