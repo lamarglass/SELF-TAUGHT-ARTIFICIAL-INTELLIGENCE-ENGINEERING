@@ -1,3 +1,7 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
 # 4th Exercise: Madlibs game
 #               a word game where you create a story
 #               by filling in blanks with random words

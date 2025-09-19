@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # while loop = exercute some code WHILE some condition remains true
 
 name = str(input("Enter your name: "))

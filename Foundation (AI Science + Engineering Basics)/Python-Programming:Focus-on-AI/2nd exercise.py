@@ -1,3 +1,7 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
 # 2nd Exercise: Rectangle Area Calculator.
 
 print("RECTANGLE AREA CALCULATOR")

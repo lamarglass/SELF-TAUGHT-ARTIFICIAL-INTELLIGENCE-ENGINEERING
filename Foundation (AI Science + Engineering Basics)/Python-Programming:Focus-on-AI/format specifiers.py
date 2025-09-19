@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # format specifiers = {value:flags} format a value based on what
 #                     flags are inserted
 

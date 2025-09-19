@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # for loops = execute a block of code a fixed number of times.
 #             you can iterate over a range, string, sequence, etc.
 

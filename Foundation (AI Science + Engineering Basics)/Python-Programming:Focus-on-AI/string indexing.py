@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # indexing = accessing elements of a sequence using []..
 #            (indexing operation).
 #            [start : end : step]

@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # name_art.py
 import pyfiglet
 

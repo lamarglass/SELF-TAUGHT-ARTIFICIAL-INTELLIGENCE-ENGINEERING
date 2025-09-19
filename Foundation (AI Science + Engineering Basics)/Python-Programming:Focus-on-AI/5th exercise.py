@@ -1,3 +1,7 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
 # 5th Exercise: Calculating the circumference of a circle
 #               formular is: C = 2*PI*radius
 

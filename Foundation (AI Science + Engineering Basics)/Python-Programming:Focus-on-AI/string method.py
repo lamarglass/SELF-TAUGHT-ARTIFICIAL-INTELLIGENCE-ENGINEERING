@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 name = str(input("Enter your full name: "))
 phone_number = int(input("Enter yur phone number: "))
 

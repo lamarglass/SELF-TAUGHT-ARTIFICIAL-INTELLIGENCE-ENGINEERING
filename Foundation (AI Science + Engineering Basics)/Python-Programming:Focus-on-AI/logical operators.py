@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # logical operators = evaluate multiple conditions (or, and, not)
 #                     or = at least one condition must be true
 #                     and = both conditions must be true

@@ -1,3 +1,7 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
 # 10th Exercise: Temperature convertor.
 
 print("Hello there, lets begin..")

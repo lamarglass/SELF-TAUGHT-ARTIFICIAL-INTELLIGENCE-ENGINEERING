@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 friends = 0
 
 #friends = friends + 1
@@ -13,7 +18,7 @@ friends = 0
 
 #remainder = friends % 3
 
-print(remainder)
+print()
 print(friends)
 
 #########################################################

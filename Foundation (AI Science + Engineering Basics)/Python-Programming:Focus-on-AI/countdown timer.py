@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # I will be building a count down timer from what i learned earlier.
 
 import time

@@ -1,3 +1,7 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
 # 9th Exercise: weight converter
 
 weight = float(input("Enter your weight: "))

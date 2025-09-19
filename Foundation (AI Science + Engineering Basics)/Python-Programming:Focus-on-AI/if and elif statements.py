@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # if = does some code only IF some conditions is True
 #      Elif so this instead
 #      Else do something else

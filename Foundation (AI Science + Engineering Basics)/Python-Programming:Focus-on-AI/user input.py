@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # input() = a function that prompt the user to enter data
 #           returns the entered data as a string
 

@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # conditional expression = A one-line shortcut for the if-else statement (ternary operator)
 #                          print or assign one of two values based on a condition
 #                          X if condition else Y

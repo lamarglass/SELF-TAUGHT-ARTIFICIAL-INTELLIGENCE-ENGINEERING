@@ -1,3 +1,7 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
 # 8th Exercise: Python calculator
 
 operator = str((input("Enter an operator (+ - * /): ")))

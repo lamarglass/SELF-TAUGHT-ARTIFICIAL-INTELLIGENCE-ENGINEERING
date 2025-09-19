@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 numbers = [1, 2, 3, 7, 10, 3, 2, 1]
 
 max = numbers[0]

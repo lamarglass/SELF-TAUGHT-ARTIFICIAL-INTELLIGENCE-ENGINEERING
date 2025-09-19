@@ -1,3 +1,7 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
 # 6th Exercise: Finding area of a circle
 #               formular: A = PI * r^2
 

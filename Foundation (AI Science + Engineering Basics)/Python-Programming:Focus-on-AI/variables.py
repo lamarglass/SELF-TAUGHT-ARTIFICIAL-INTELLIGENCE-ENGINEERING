@@ -1,3 +1,8 @@
+# Documented-By-Lamar
+from name_art import print_name
+
+print_name() 
+
 # variables = a container for a value (string, integer, float, boolean)
 #             a variable behaves as if it was the value it contains
 
