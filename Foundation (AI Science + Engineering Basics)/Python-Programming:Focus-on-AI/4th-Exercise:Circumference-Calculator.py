@@ -4,9 +4,9 @@
 
 ######################################################################
 # Documented-By-Lamar
-#from name_art import print_name
+from name_art import print_name
 
-#print_name() 
+print_name() 
 
 #######################################################################
 
