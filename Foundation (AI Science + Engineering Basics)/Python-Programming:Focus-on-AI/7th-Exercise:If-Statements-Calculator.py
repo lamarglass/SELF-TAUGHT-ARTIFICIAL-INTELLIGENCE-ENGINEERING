@@ -1,4 +1,4 @@
-# 7th-Exercise-If-Statements-Calculator
+# 7th-Exercise: If-Statements-Calculator
 
 # A basic calculator usinG if statements.
 
